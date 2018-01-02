@@ -74,7 +74,7 @@ defmodule YourApp.Web do
   def controller do
     quote do
       ...
-      use Breadcrumble  <= ADD
+      use Breadcrumble  #<= ADD
     end
   end
   ...
